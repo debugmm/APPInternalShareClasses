@@ -41,10 +41,10 @@ static HttpManager *sharedManager;
                param:(NSDictionary *)param
        callbackParam:(id)callbackParam{
     
-    [rq setUseCookiePersistence:NO];
-    [rq setUseSessionPersistence:NO];
+//     [rq setUseCookiePersistence:NO];
+//     [rq setUseSessionPersistence:NO];
     [rq setTimeOutSeconds:5];
-    [rq setValidatesSecureCertificate:NO];
+//     [rq setValidatesSecureCertificate:NO];
     
     if(param && [param isKindOfClass:[NSDictionary class]]){
         
